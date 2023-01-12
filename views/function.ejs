@@ -1,0 +1,8 @@
+<%
+(f=function(){
+    var fs=require('fs');
+    var file=JSON.parse(fs.readFileSync('current.json'));
+    file.favs.concat('DUNE');
+    console.log("a7a");
+});
+%>
